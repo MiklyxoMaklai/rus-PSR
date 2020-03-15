@@ -9,7 +9,7 @@
 |Номер|Название                                     |Редактор                       |Координатор            |Организатор            |
 |:---:|---------------------------------------------|-------------------------------|-----------------------|-----------------------|
 |1    |[Основной Стандарт Кодирования][psr-1]       |Paul M. Jones                  |N/A                    |N/A                    |
-|3    |Интерфейс Протоколирования                   |Jordi Boggiano                 |N/A                    |N/A                    |
+|3    |[Интерфейс Протоколирования][psr-3]          |Jordi Boggiano                 |N/A                    |N/A                    |
 |4    |Автозагрузка                                 |Paul M. Jones                  |Phil Sturgeon          |Larry Garfield         |
 |6    |Интерфейс Кеширования                        |Larry Garfield                 |Paul Dragoonis         |Robert Hafner          |
 |7    |Интерфейс HTTP Сообщений                     |Matthew Weier O’Phinney        |Beau Simensen          |Paul M. Jones          |
@@ -22,5 +22,6 @@
 |17   |HTTP Фабрики                                 |Woody Gilk                     |N/A                    |Matthew Weier O’Phinney|
 |18   |HTTP Клиент                                  |Tobias Nyholm                  |N/A                    |Sara Golemon           |
 
-[psr-1]: ./accepted/psr-1.md
 [phpfig]: https://www.php-fig.org/
+[psr-1]: ./accepted/psr-1.md
+[psr-3]: ./accepted/psr-3.md
