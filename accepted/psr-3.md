@@ -59,7 +59,7 @@
 
     // выведет "User bolivar created"
     echo interpolate($message, $context);
-```
+    ```
 
 ###### 1.3 Context
 
