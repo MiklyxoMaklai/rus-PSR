@@ -26,7 +26,7 @@
 
 Исключения, непосредственно создаваемые контейнером, ДОЛЖНЫ реализовывать интерфейс [`Psr\Container\ContainerExceptionInterface`](#32-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-psrcontainercontainerexceptioninterface).
 
-Вызов метода `get` с несуществующим идентификатором ДОЛЖЕН выбросить исключение [`Psr\Container\NotFoundExceptionInterface`](#not-found-exception).
+Вызов метода `get` с несуществующим идентификатором ДОЛЖЕН выбросить исключение [`Psr\Container\NotFoundExceptionInterface`](#33-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-psrcontainernotfoundexceptioninterface).
 
 ##### 1.3 Рекомендуемое Использование
 
