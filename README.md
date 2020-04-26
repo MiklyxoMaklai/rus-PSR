@@ -10,20 +10,23 @@
 |:---:|---------------------------------------------|-------------------------------|-----------------------|-----------------------|
 |1    |[Основной Стандарт Кодирования][psr-1]       |Пол М. Джонс                   |Отсутствует            |Отсутствует            |
 |3    |[Интерфейс Протоколирования][psr-3]          |Боджиано Жорди                 |Отсутствует            |Отсутствует            |
-|4    |[Автозагрузка][psr-4]                        |Пол М. Джонс                   |Фил Стерджен           |Ларри Гарфилд          |
-|6    |Интерфейс Кеширования                        |Larry Garfield                 |Paul Dragoonis         |Robert Hafner          |
-|7    |Интерфейс HTTP Сообщений                     |Matthew Weier O’Phinney        |Beau Simensen          |Paul M. Jones          |
-|11   |Интерфейс Контейнера                         |Matthieu Napoli, David Négrier |Matthew Weier O’Phinney|Korvin Szanto          |
-|12   |[Расширенный Стиль Кодирования][psr-12]      |Корвин Шанто                   |Александр Макаров      |Крис Танкерсли         |
-|13   |Гипермедиа Ссылки                            |Larry Garfield                 |Matthew Weier O’Phinney|Marc Alexander         |
-|14   |Диспетчер Событий                            |Larry Garfield                 |N/A                    |Cees-Jan Kiewiet       |
-|15   |Обработчики HTTP                             |Woody Gilk                     |N/A                    |Matthew Weier O’Phinney|
+|4    |[Автозагрузка*][psr-4]                       |Пол М. Джонс                   |Фил Стерджен           |Ларри Гарфилд          |
+|6    |Интерфейс Кеширования                        |Ларри Гарфилд                  |Paul Dragoonis         |Robert Hafner          |
+|7    |Интерфейс HTTP Сообщений                     |Мэтью Уэйер О'Финни            |Beau Simensen          |Paul M. Jones          |
+|11   |[Интерфейс Контейнера*][psr-11]              |Матье Наполи, Давид Негриер    |Мэтью Уэйер О'Финни    |Корвин Шанто           |
+|12   |[Расширенный Стиль Кодирования*][psr-12]     |Корвин Шанто                   |Александр Макаров      |Крис Танкерсли         |
+|13   |Гипермедиа Ссылки                            |Ларри Гарфилд                  |Мэтью Уэйер О'Финни    |Marc Alexander         |
+|14   |Диспетчер Событий                            |Ларри Гарфилд                  |Отсутствует            |Cees-Jan Kiewiet       |
+|15   |Обработчики HTTP                             |Woody Gilk                     |Отсутствует            |Мэтью Уэйер О'Финни    |
 |16   |Простой Кеш                                  |Paul Dragoonis                 |Jordi Boggiano         |Fabien Potencier       |
-|17   |HTTP Фабрики                                 |Woody Gilk                     |N/A                    |Matthew Weier O’Phinney|
-|18   |HTTP Клиент                                  |Tobias Nyholm                  |N/A                    |Sara Golemon           |
+|17   |HTTP Фабрики                                 |Woody Gilk                     |Отсутствует            |Мэтью Уэйер О'Финни    |
+|18   |HTTP Клиент                                  |Tobias Nyholm                  |Отсутствует            |Sara Golemon           |
+
+\* Имеется META-документ
 
 [phpfig]: https://www.php-fig.org/
 [psr-1]: ./accepted/psr-1.md
 [psr-3]: ./accepted/psr-3.md
 [psr-4]: ./accepted/psr-4.md
+[psr-11]: ./accepted/psr-11.md
 [psr-12]: ./accepted/psr-12.md
